@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "6ab2d027-9a84-4038-8bf6-59f9aad3c91a",
+		"name": "department_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://49.233.189.50:8080/JW_201802104044_24/department.ctl",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://49.233.189.50:8080/JW_201802104044_24/department.ctl?id=3",
+					"protocol": "http",
+					"host": [
+						"49",
+						"233",
+						"189",
+						"50"
+					],
+					"port": "8080",
+					"path": [
+						"JW_201802104044_24",
+						"department.ctl"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://49.233.189.50:8080/JW_201802104044_24/department.ctl",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"description\":\"id为null的新专业\",\"no\":\"05\",\"remarks\":\"\",\"school\":{\"id\":1,\"description\":\"管理工程学院\",\"no\":\"05\",\"remarks\":\"the best\"}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://49.233.189.50:8080/JW_201802104044_24/department.ctl",
+					"protocol": "http",
+					"host": [
+						"49",
+						"233",
+						"189",
+						"50"
+					],
+					"port": "8080",
+					"path": [
+						"JW_201802104044_24",
+						"department.ctl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://49.233.189.50:8080/JW_201802104044_24/department.ctl",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"id\":4,\"description\":\"信管\",\"no\":\"05\",\"remarks\":\"\",\"school\":{\"id\":1,\"description\":\"管理工程学院\",\"no\":\"05\",\"remarks\":\"the best\"}}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://49.233.189.50:8080/JW_201802104044_24/department.ctl",
+					"protocol": "http",
+					"host": [
+						"49",
+						"233",
+						"189",
+						"50"
+					],
+					"port": "8080",
+					"path": [
+						"JW_201802104044_24",
+						"department.ctl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://49.233.189.50:8080/JW_201802104044_24/department.ctl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://49.233.189.50:8080/JW_201802104044_24/department.ctl?id=4",
+					"protocol": "http",
+					"host": [
+						"49",
+						"233",
+						"189",
+						"50"
+					],
+					"port": "8080",
+					"path": [
+						"JW_201802104044_24",
+						"department.ctl"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://49.233.189.50:8080/JW_201802104044_24/department.ctl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://49.233.189.50:8080/JW_201802104044_24/department.ctl",
+					"protocol": "http",
+					"host": [
+						"49",
+						"233",
+						"189",
+						"50"
+					],
+					"port": "8080",
+					"path": [
+						"JW_201802104044_24",
+						"department.ctl"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
